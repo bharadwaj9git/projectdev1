@@ -18,6 +18,6 @@ unzip /tmp/frontend.zip
 #cd
 cd /etc/nginx/default.d
 
-cp frontend.conf /etc/nginx/default.d/frontend.conf
+mv frontend.conf /etc/nginx/default.d/frontend.conf
 
 systemctl restart nginx
