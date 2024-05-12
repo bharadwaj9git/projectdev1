@@ -1,4 +1,9 @@
 
-ls -l
-pwd
-dnf list | grep nginx
+
+sudo -i
+
+dnf install nginx -y
+
+systemctl enable nginx
+systemctl start nginx
+
