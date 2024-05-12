@@ -16,7 +16,7 @@ unzip /tmp/frontend.zip
 # file required for reverse proxy
 ls
 pwd
-
+cd /etc/nginx/default.d/expense.conf
 cp frontend.conf /etc/nginx/default.d/expense.conf
 
 systemctl restart nginx
