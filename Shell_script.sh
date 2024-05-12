@@ -1,7 +1,6 @@
 #front end automating
 
 
-
 dnf install nginx -y
 
 systemctl enable nginx
@@ -13,5 +12,9 @@ curl -o /tmp/frontend.zip https://expense-artifacts.s3.amazonaws.com/expense-fro
 
 cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
+
+# file required for reverse proxy
+
+cp frontend.conf /etc/nginx/default.d/expense.conf
 
 systemctl restart nginx
