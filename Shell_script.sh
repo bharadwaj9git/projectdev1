@@ -1,6 +1,6 @@
 #front end automating
 
-echo installing nginx
+echo -e "\e[colm -31 installing nginx\e[0m"
 dnf install nginx -y
 cp frontend.conf /etc/nginx/default.d/frontend.conf
 rm -rf /usr/share/nginx/html/*
