@@ -1,6 +1,6 @@
 #front end automating
 
-
+echo installing nginx
 dnf install nginx -y
 cp frontend.conf /etc/nginx/default.d/frontend.conf
 rm -rf /usr/share/nginx/html/*
