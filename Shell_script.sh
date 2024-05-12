@@ -1,5 +1,4 @@
 
-ls-l
-
+ls -l
 pwd
-dnf list installed
+dnf list | grep
