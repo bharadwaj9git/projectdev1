@@ -1,2 +1,1 @@
-# practicing shell script
-# installing nginx webserver
+# shell script for practice
