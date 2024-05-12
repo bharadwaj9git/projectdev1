@@ -1,4 +1,4 @@
 
 ls -l
 pwd
-dnf list | grep
+dnf list | grep nginx
