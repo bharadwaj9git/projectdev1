@@ -14,6 +14,9 @@ cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
 
 # file required for reverse proxy
+pwd
+cd
+pwd
 cd /etc/nginx/default.d/frontend.conf
 
 cp frontend.conf /etc/nginx/default.d/frontend.conf
