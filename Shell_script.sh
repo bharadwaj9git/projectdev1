@@ -1,6 +1,6 @@
 
 
-sudo -i
+
 
 dnf install nginx -y
 
