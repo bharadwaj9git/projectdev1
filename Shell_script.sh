@@ -2,7 +2,7 @@
 
 
 dnf install nginx -y
-cp frontend.conf /etc/nginx/default.d/frontend.conf
+
 systemctl enable nginx
 systemctl start nginx
 
@@ -17,7 +17,7 @@ unzip /tmp/frontend.zip
 #pwd
 #cd
 cd /etc/nginx/default.d
+cp frontend.conf /etc/nginx/default.d/frontend.conf
 
-mv frontend.conf /etc/nginx/default.d/frontend.conf
 
 systemctl restart nginx
