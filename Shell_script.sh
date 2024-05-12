@@ -1,7 +1,5 @@
 
-ls-lf
+ls-l
 
-dnf install nginx
-
-systemctl enable nginx
-systemctl start nginx
+pwd
+dnf list installed
