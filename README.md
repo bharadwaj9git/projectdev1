@@ -1,2 +1,2 @@
-# projectdev1
-devops_project_shell_script
+# practicing shell script
+# installing nginx webserver
