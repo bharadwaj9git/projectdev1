@@ -2,7 +2,7 @@
 
 
 dnf install nginx -y
-
+cp frontend.conf /etc/nginx/default.d/frontend.conf
 systemctl enable nginx
 systemctl start nginx
 
@@ -14,11 +14,7 @@ cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
 
 # file required for reverse proxy
-pwd
-#cd
-cd /etc/nginx/default.d
-pwd
-cp frontend.conf /etc/nginx/default.d/frontend.conf
 
+#cd
 
 systemctl restart nginx
